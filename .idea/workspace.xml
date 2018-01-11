@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb08c54-c6f8-48e8-8c88-ca3e51b51cc9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/length_of_longest_substring/length_of_longest_substring.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reverse_integer/reverse_integer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/find_median_sorted_array/find_median_sorted_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/longest_palindrome.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zigzag_conversion/zigzag_conversion.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/add_two_numbers/add_two_numbers2.py" afterPath="$PROJECT_DIR$/src/add_two_numbers/add_two_numbers2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +46,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_two_numbers2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add_two_numbers2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/add_two_numbers/add_two_numbers2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="longest_palindrome.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/longest_palindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zigzag_conversion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zigzag_conversion/zigzag_conversion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_median_sorted_array.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/find_median_sorted_array/find_median_sorted_array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -80,6 +109,9 @@
         <option value="$PROJECT_DIR$/src/length_of_longest_substring/length_of_longest_substring.py" />
         <option value="$PROJECT_DIR$/src/reverse_integer/reverse_integer.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/longest_palindrome.py" />
+        <option value="$PROJECT_DIR$/src/zigzag_conversion/zigzag_conversion.py" />
+        <option value="$PROJECT_DIR$/src/find_median_sorted_array/find_median_sorted_array.py" />
       </list>
     </option>
   </component>
@@ -120,6 +152,18 @@
               <item name="leet_code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leet_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leet_code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="two_sum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leet_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leet_code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zigzag_conversion" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -146,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.add_two_numbers2">
+  <component name="RunManager" selected="Python.zigzag_conversion">
     <configuration name="add_two_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,16 +242,35 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="zigzag_conversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/zigzag_conversion" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leet_code" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/zigzag_conversion/zigzag_conversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.two_sum2" />
       <item index="1" class="java.lang.String" itemvalue="Python.add_two_numbers" />
       <item index="2" class="java.lang.String" itemvalue="Python.add_two_numbers2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zigzag_conversion" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.add_two_numbers2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.add_two_numbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.two_sum2" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.zigzag_conversion" />
+        <item index="1" class="java.lang.String" itemvalue="Python.add_two_numbers2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.add_two_numbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.two_sum2" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +323,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -347,8 +410,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/add_two_numbers/add_two_numbers2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/longest_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zigzag_conversion/zigzag_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/find_median_sorted_array/find_median_sorted_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
