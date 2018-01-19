@@ -12,4 +12,5 @@ Begin at January/05/2018
   <li>is_palindrome 01/11/2018</li>
   <li>is_match 01/15/2018 not work</li>
   <li>is_match2 01/16/2018 not work</li>
+  <li>max_area 01/18/2018</li>
 </ol>
