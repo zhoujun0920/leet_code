@@ -15,4 +15,5 @@ Begin at January/05/2018
   <li>max_area 01/18/2018</li>
   <li>int_to_roman2 01/19/2018</li>
   <li>roman_to_int 01/24/2018</li>
+  <li>longest_common_prefix 02/17/2018</li>
 </ol>
